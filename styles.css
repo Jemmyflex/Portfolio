@@ -1,0 +1,133 @@
+* {
+    /* padding: 0; */
+    margin: 0;
+    /* overflow-y: none; */
+    /* overflow-x: none; */
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 7vh;
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: aqua;
+
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/sec\ edited\ image.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    color: aqua;
+
+}
+
+.led {
+    font-family: sans-serif;
+    font-size: 120px;
+    line-height: 132px;
+    text-align: start;
+    letter-spacing: 0.4px;
+}
+
+.title-text {
+    font-family: sans-serif;
+    font-size: 84px;
+    line-height: 92.4px;
+    text-align: start;
+    font-style: oblique;
+
+}
+
+.subtext {
+    font-family: sans-serif;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: start;
+    letter-spacing: 0.4px;
+
+}
+
+span {
+    font-family: sans-serif;
+
+}
+
+.about-sec{
+    background-color: #22252c;
+    width: 100%;
+    padding: 2rem;
+}
+.about {
+    display: flex;
+    justify-content: center;
+   gap: 4rem;
+    margin:  auto;
+    width: 70%;
+}
+
+
+.about-image{
+    width: 50%;
+}
+
+.about-image-bg img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 45px;
+    color: #02F3AA;
+}
+
+.about-text {
+    color: white;
+    width: 100%;
+   
+}
+
+.image-button {
+    background-color: #02F3AA;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 2;
+    border: none;
+    font-weight: bolder;
+    justify-content: center;
+    font-size: large;
+}
