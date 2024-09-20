@@ -209,7 +209,6 @@ hr {
     justify-content: center;
     align-items: center;
 
-
 }
 .footer button {
      color: #02F3AA;
@@ -223,7 +222,6 @@ hr {
      /* align-content: center; */
      width: 20%;
      margin: 40px;
-    
 
 }
 
@@ -247,7 +245,7 @@ hr {
     justify-content: center;
     margin-bottom: 20px;
     border: 1px solid black;
-    padding: 10px;
+    padding: 10px; 
     border-radius: 15px;
 
 }
