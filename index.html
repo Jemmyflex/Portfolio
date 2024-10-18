@@ -12,51 +12,48 @@
 
 <body>
     <nav>
-        <h4 class="logo">Any.Jemima</h4>
+        <h4 class="logo">JemFolio</h4>
         <div class="nav-items">
-            <a href="#">About Me</a>
+            <a href="#hero">Home</a>
+            <a href="#about">About Me</a>
             <a href="#">Education</a>
-            <a href="#">Work Experience</a>
-            <a href="#">My Works</a>
-            <a href="#">Contact</a>
+            <a href="#">My Skills/Projects</a>
+            <a href="#footer">Contact</a>
         </div>
     </nav>
     <section id="hero">
         <section class="overlay">
-            <p class="led">Hello!</p>
+
             <h1 class="title-text">I am <span>Jemima Anyanah</span></h1>
-            <p class="subtext"> Pharmcist, Entrepreneur & web developer.</p>
-            <button class="hero-button">Get A Qoute</button>
+            <p class="subtext"> A Junior Frontend web developer.</p>
+
 
         </section>
     </section>
-    <section class="about-sec">
+    <section id="about" class="about-sec">
         <div class="about">
             <div class="about-image">
                 <div class="about-image-bg">
-                    <img src="./img/sec edited image.jpg" alt="sec edited">
+                    <img src="./img/ediited image.jpg" alt="sec edited">
                 </div>
-          
-            <button class="image-button">Downlow Resume</button>
-        </div>
-           
+
+                <button class="image-button">Downlow Resume</button>
+            </div>
+
             <div class="about-text">
                 <h3>ABOUT ME</h3>
-                <p>I am a compasinate Pharmcist, a growing Entrepreneur and a soon to be top-notch front-end web
-                    developer. Pharmacist with over 7years Experience.I also have a Strong background in management and
-                    leadership.</p> <br>
-                <p> <span>Name:</span> Jemima Anyanah <br>
-                <br>
-                    <span>Date of birth:</span> 09 october 1991 <br>
-                    <br>
-                    <span>Nationality:</span> Citizen Of Ghana <br>
-                    <br>
-                    <span>Phone:</span> (233) - 245924200, (233) - 209137285 <br>
-                    <br>
-                    <span>E-Mail:</span>janyanah@gmail.com
-                
-
-                </p>
+                <p>I am a passionate and motivated Junior Front-End Developer with a strong foundation in creating
+                    responsive, user-friendly web applications. I have hands-on experience with front-end technologies
+                    such as HTML, CSS, JavaScript, and React, and I am comfortable working with frameworks like Tailwind
+                    CSS and build tools like Vite to enhance the development process.</p> <br>
+                <p> With a keen eye for design and detail, I enjoy turning complex problems into simple, beautiful, and
+                    intuitive interfaces. I strive to create web pages that not only look good but also deliver a
+                    seamless user experience across various devices. I have worked on several personal projects, which
+                    have helped me strengthen my problem-solving skills.
+                </p> <br>
+                <p>I am always eager to expand my knowledge of modern web technologies and tools, including exploring
+                    JavaScript frameworks and version control with Git. Collaboration is important to me, and I thrive
+                    in team environments where I can contribute my skills while learning from others.</p>
 
             </div>
         </div>
@@ -67,48 +64,106 @@
             <h4>My Interest</h4>
         </div>
         <div class="gallery">
-                <div class="gallery-item">
-                    <img src="./img/cook img.jpg" alt="cook image"/>
-                    <div class="gallery-overlay">
-                        <span>Cooking Delicious meals</span>
-                    </div>
+            <div class="gallery-item">
+                <img src="./img/cook img.jpg" alt="cook image" />
+                <div class="gallery-overlay">
+                    <span>Cooking Delicious meals</span>
                 </div>
-                <div class="gallery-item">
-                    <img src="./img/music image.jpg" alt="music">
-                    <div class="gallery-overlay">
-                        <span>Listening To Good Music</span>
-                    </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./img/music image.jpg" alt="music">
+                <div class="gallery-overlay">
+                    <span>Listening To Good Music</span>
                 </div>
-                <div class="gallery-item">
-                    <img src="./img/nw read image.jpg" alt="read">
-                    <div class="gallery-overlay">
-                        <span>Reading Love Novels</span>
-                    </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./img/nw read image.jpg" alt="read">
+                <div class="gallery-overlay">
+                    <span>Reading Love Novels</span>
                 </div>
-            
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills">
+        <p>Skills and Projects</p>
+
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="small-card">
+
+            <div class="icon-text-wrapper">
+                <div class="icon-circle">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                    <span class="icon-text">Address</span>
+                    <p>GA-105-4831,Tse Addo,Ghana</p>
+                </div>
+            </div>
+
+            <div class="icon-text-wrapper">
+                <div class="icon-circle">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div><span class="icon-text">Call Us</span>
+                    <p>+233-245-924-200</p>
+                </div>
+            </div>
+
+            <div class="icon-text-wrapper">
+                <div class="icon-circle">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div>
+                    <span class="icon-text">Email Us</span>
+                    <p>northernweavegh@gmail,com</p>
+                </div>
+            </div>
+
         </div>
 
+        <div class="large-card">
+
+            <div class="first-input">
+
+                <input class="input-sec" id="name" name="name" placeholder="Enter Your Name">
+                <input class="input-sec" id="email" name="email" placeholder="Enter Your Email">
+
+            </div>
+
+
+            <div class="subject-message">
+                <input class="subject-box" id="subject" name="subject" placeholder="Subject">
+                <input class="message-box" id="message" name="message" placeholder="Enter Message">
+            </div>
+
+            <button class="contact-but">Send Message</button>
+        </div>
+
+
     </section>
-    <section class="footer">
-             <hr class="first-line">
-            <button>SEND MESSEGE</button>
-            <div class="social-media-handles">
+
+    <footer>
+        <div class="copyright-sec">
+            <div class="footer-text">
+                <p>&copy; copyright</p>
+                <p>JemFolio</p>
+                <p>All Rights Reserved</p>
+            </div>
+            <div class="soclial-media">
                 <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-solid fa-address-book"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            
+                <span><i class="fa-brands fa-linkedin"></i></span>
+
             </div>
-            <hr>
-            <div class="copyright">
-                <p>&copy; 2024 Any.Jemima. All rights reserved.</p>
-            </div>
+        </div>
+    </footer>
 
-    </section>
-
-    <section>
-
-    </section>
 </body>
 
 </html>
-
